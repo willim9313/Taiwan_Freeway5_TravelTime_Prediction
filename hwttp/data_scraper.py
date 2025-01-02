@@ -181,7 +181,7 @@ def scrape_etag_info(date_list: list[str],
                      save_dir_upper: str='../data/raw/ETag/',
                      select_data: str='all') -> None:
     '''
-    可指定一連串的時間資訊下進行VD資料的爬取，原始VD資料有區分動態與靜態資訊，可透過指定參數來決定下載目標
+    可指定一連串的時間資訊下進行ETag資料的爬取，原始資料有區分動態與靜態資訊，可透過指定參數來決定下載目標
 
     Parameters
     ----------
